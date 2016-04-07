@@ -16,7 +16,7 @@ defined('_JEXEC') or die;
  * @subpackage  mod_menu
  * @since       1.5
  */
-class ModBootmenuHelper
+class ModZtmmenuHelper
 {
 	/**
 	 * Get a list of the menu items.
@@ -38,7 +38,7 @@ class ModBootmenuHelper
 		$levels = $user->getAuthorisedViewLevels();
 		asort($levels);
 		$key = 'menu_items' . $params . implode(',', $levels) . '.' . $base->id;
-		$cache = JFactory::getCache('mod_bootmenu', '');
+		$cache = JFactory::getCache('mod_ztm_menu', '');
 
 		if (!($items = $cache->get($key)))
 		{
