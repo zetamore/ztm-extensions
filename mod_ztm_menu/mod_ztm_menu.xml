@@ -4,8 +4,8 @@
 	<author>ztm</author>
 	<authorEmail>hello@ztm.ee</authorEmail>
 	<authorUrl>www.ztm.ee</authorUrl>
-	<creationDate>December 2015</creationDate>
-	<version>1.0</version>
+	<creationDate>April 2016</creationDate>
+	<version>1.1</version>
 	<description>ztm Bootstrap 3 nav Menu</description>
 	<files>
 		<filename>mod_ztm_menu.xml</filename>
